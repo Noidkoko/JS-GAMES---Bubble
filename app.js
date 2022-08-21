@@ -27,7 +27,7 @@ canvas.addEventListener('mouseup', function() {
 })
 //Player
 const playerLeft = new Image();
-playerLeft.src = 'assets/fish_swim_left.png';
+playerLeft.src = 'fish_swim_left.png';
 
 const playerRight = new Image();
 playerRight.src = 'assets/fish_swim_right.png';
