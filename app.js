@@ -27,7 +27,7 @@ canvas.addEventListener('mouseup', function() {
 })
 //Player
 const playerLeft = new Image();
-playerLeft.src = 'fish_swim_left.png';
+playerLeft.src = 'assets/fish_swim_left.png';
 
 const playerRight = new Image();
 playerRight.src = 'assets/fish_swim_right.png';
@@ -113,9 +113,9 @@ class Bubble {
 }
 
 const bubblePop1 = document.createElement('audio');
-bubblePop1.src = '/sound/pop1.ogg'
+bubblePop1.src = 'sound/pop1.ogg'
 const bubblePop2 = document.createElement('audio');
-bubblePop2.src = '/sound/pop2.ogg'
+bubblePop2.src = 'sound/pop2.ogg'
 function handleBubbles() {
     if (gameFrame % 50 == 0) {
         bubblesArray.push(new Bubble());
