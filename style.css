@@ -12,6 +12,7 @@ body {
 
 }
 #canvas1 {
+    background: url('assets/bg.jpg');
     width: 800;
     height: 500;
     border: 4px solid black;
